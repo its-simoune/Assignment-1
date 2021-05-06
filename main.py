@@ -1,20 +1,20 @@
-# Question 1
-# Question = 'Please write your first and last name :)'
-# print(Question)
-# Name = input()
-# Switch = Name.find(' ')
-# print(Name[Switch:], Name[:Switch])
+ Question 1
+ Question = 'Please write your first and last name :)'
+ print(Question)
+ Name = input()
+ Switch = Name.find(' ')
+ print(Name[Switch:], Name[:Switch])
 
-# Question 2
-# x = int(input()) # x is number input
-# if x % 2 != 0:
+ Question 2
+ x = int(input()) # x is number input
+ if x % 2 != 0:
   # print('Number is odd')
-# elif x == 0:
-  # print('Number is a zero')
-# else:
-  # print('Number is even')
+ elif x == 0:
+   print('Number is a zero')
+ else:
+   print('Number is even')
 
-# Question 3
+ Question 3
 x = int(input())
 for i in range(1, 31 +1):
   if x == i:
@@ -53,25 +53,25 @@ for t in range(336, 365 + 1):
   if x == t:
     print('December', x)
 
-# Question 4
-# a = 5
-# i = 0
-# for i in range(a, 0, -1):
-    # for j in range(i, 0, -1):
-      # print(j, end = "")
-    # print(" ")
+ Question 4
+ a = 5
+ i = 0
+ for i in range(a, 0, -1):
+     for j in range(i, 0, -1):
+       print(j, end = "")
+     print(" ")
 
-# Question 5
-# Question = 'What is the maximum number of your wished pattern?'
-# print(Question)
-# b = int(input())
-# i = 0
-# for i in range(a, 0, -1):
-    # for j in range(i, 0, -1):
-      # print(j, end = "")
-    # print(" ")
+ Question 5
+ Question = 'What is the maximum number of your wished pattern?'
+ print(Question)
+ b = int(input())
+ i = 0
+ for i in range(a, 0, -1):
+     for j in range(i, 0, -1):
+       print(j, end = "")
+     print(" ")
 
-# Extra:
+ Extra:
 x = int(input())
 
 if x == 1:
